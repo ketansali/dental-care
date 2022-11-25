@@ -1,0 +1,329 @@
+.order-section {
+  padding: 20px !important;
+}
+.orderTitle p {
+  font-weight: bolder !important;
+  font-size: 26px !important;
+  line-height: 31px !important;
+}
+.imageView {
+  background: #ffffff !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 0px 10px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 25px !important;
+}
+.imageView img {
+  width: 100% !important;
+  height: 100% !important;
+}
+.seeMoreBtn {
+  padding: 20px 0 !important;
+  text-align: center;
+}
+.seeMore {
+  background: #dff2ff !important;
+  color: #000000 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  text-transform: capitalize !important;
+  border-radius: 12px !important;
+}
+.cart-section {
+  background: #ddf2ff;
+  box-shadow: inset 0px 0px 14px rgba(0, 158, 255, 0.25);
+  border-radius: 20px;
+  padding: 30px;
+}
+.cart-title p {
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 23px !important;
+  text-align: center !important;
+  color: #004574 !important;
+  padding: 20px !important;
+}
+.price-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: center;
+}
+.main-price p {
+  font-weight: bolder !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+}
+.main-price span {
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  color: #004574 !important;
+}
+.quantity {
+  background: #ffffff;
+  border-radius: 6px;
+}
+.quantity span {
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  line-height: 15px !important;
+  color: #004574 !important;
+  padding: 5px !important;
+}
+.addCartBtn {
+  text-align: center;
+  padding: 10px 0;
+}
+.addCart {
+  background: linear-gradient(180deg, #3b6d8f 0%, #6e99b7 100%);
+  border-radius: 12px;
+}
+hr {
+  opacity: 0.23 !important;
+  border: 1px solid #009fff !important;
+}
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+  width: 60% !important;
+  background: #f3fbff !important;
+  box-shadow: -4px 0px 25px rgba(255, 255, 255, 0.8) !important;
+  border-radius: 70px 0px 0px 70px !important;
+}
+.cartModal {
+  padding: 18px;
+  padding-left: 60px;
+}
+.cartItemTitle {
+  text-align: center;
+  font-weight: bolder !important;
+  font-size: 50px !important;
+  line-height: 61px !important;
+  text-align: center !important;
+  color: #004574 !important;
+}
+.cartItemTitle span {
+  font-weight: 900 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  text-align: center !important;
+  color: #000000 !important;
+}
+
+.dentalImage {
+  margin-left: -30px !important;
+  filter: drop-shadow(0px 0px 9.66873px rgba(0, 0, 0, 0.25)) !important;
+  border-radius: 21.4861px !important;
+}
+.selectItem {
+  margin-top: 30px;
+  padding: 40px 0;
+  box-shadow: inset 0px 0px 15.0402px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 21.4861px !important;
+}
+.ntalName {
+  font-weight: bolder !important;
+  font-size: 25.7833px !important;
+  line-height: 31px !important;
+  color: #004574 !important;
+  padding: 20px 0 !important;
+}
+.dentalPrice {
+  font-weight: bolder !important;
+  font-size: 25.7833px !important;
+  line-height: 31px !important;
+  color: #000000 !important;
+  padding: 5px 0 !important;
+}
+.uppperTitle {
+  font-weight: bolder;
+  font-size: 15.0402px;
+  line-height: 18px;
+  color: #004574;
+}
+.totalPrice {
+  padding-top: 100px;
+  padding-right: 30px;
+  font-weight: bolder !important;
+  font-size: 21.4861px;
+  line-height: 26px;
+  color: #000000;
+}
+.totalPrice span {
+  font-weight: bolder !important;
+  font-size: 31.1548px !important;
+  line-height: 38px !important;
+  text-align: right !important;
+  color: #004574 !important;
+}
+.upperName {
+  font-weight: bolder;
+  font-size: 25.7833px;
+  line-height: 31px;
+  color: #004574;
+  padding: 10px 0;
+}
+.upperDental {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+}
+.qyt {
+  background: #d1ecfd;
+  border-radius: 6.44582px;
+  margin-top: 80px;
+}
+.qyt span {
+  font-weight: bolder !important;
+  font-size: 16.1146px !important;
+  line-height: 20px !important;
+  color: #004574 !important;
+  padding: 5px;
+}
+.shipping {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.ship {
+  font-weight: bolder !important;
+  font-size: 25.7833px !important;
+  line-height: 31px !important;
+  color: #004574 !important;
+}
+.shippingCharge {
+  font-weight: bolder;
+  font-size: 31.1548px;
+  line-height: 38px;
+  text-align: right;
+  color: #004574;
+}
+.total {
+  font-weight: bolder;
+  font-size: 42.9721px;
+  line-height: 52px;
+  color: #004574;
+}
+.credit-debit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 159, 255, 0.49);
+  border-radius: 10px;
+}
+.credit-images img {
+  margin: 0 10px !important;
+}
+.radioBtn > div > label > span {
+  color: #000000 !important;
+  font-weight: 600 !important;
+  font-size: 21.4861px !important;
+  line-height: 26px !important;
+}
+.radioBtn > .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  color: #000000 !important;
+}
+.radioBtn p {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+  color: #35afff !important;
+  padding-left: 30px;
+}
+.cardInput {
+  width: 100% !important;
+}
+.main-payment {
+  box-shadow: inset 0px 0px 15.0402px rgba(0, 0, 0, 0.25);
+  border-radius: 21.4861px;
+  padding: 20px;
+}
+.cardDetails {
+  border: 1px solid #7cceff;
+  border-radius: 10px;
+}
+.payNowBtn {
+  background: linear-gradient(180deg, #3b6d8f 0%, #6e99b7 100%);
+  border-radius: 12px;
+  padding: 10px 50px !important;
+}
+.onlinePayment {
+  margin: 10px 0 !important;
+}
+.inputLabel {
+  font-weight: bolder !important;
+  font-size: 15px !important;
+  line-height: 18px !important;
+  color: #000000 !important;
+}
+.successPaid {
+  margin-top: 20px;
+  box-shadow: inset 0px 0px 15.0402px rgba(0, 0, 0, 0.25);
+  border-radius: 21.4861px;
+  padding: 50px !important;
+}
+.successLogo {
+  width: 114.64px !important;
+  height: 114.64px !important;
+}
+.invoiceSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.idPart {
+  font-weight: bolder;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.inDetails {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+.amountPaid {
+  font-weight: bolder !important;
+  font-size: 30px !important;
+  line-height: 36px !important;
+  color: #004574 !important;
+}
+.total {
+  font-weight: 900 !important;
+  font-size: 31.1548px !important;
+  line-height: 38px !important;
+  text-align: right !important;
+  color: #004574 !important;
+}
+.paymentButton {
+  padding: 10px 0;
+  text-align: center;
+}
+.paymentButton button {
+  margin: 10px !important;
+}
+@media (max-width: 768px) {
+  .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    width: 100% !important;
+  }
+  .idPart,
+  .inDetails,
+  .amountPaid,
+  .total {
+    font-size: 15px !important;
+  }
+  .cartItemTitle {
+    font-size: 25px !important;
+  }
+  .upperName,
+  .dentalPrice,
+  .uppperTitle,
+  .ship,
+  .shippingCharge {
+    font-size: 15px !important;
+  }
+  .totalPrice > span {
+    font-size: 25px !important;
+  }
+}

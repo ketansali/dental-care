@@ -1,0 +1,412 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+/* Signin page start */
+.main-section {
+  height: 100vh;
+}
+.signinsection-1 {
+  background-color: #004574;
+  height: 100%;
+  width: 100%;
+}
+.signinHeader {
+  text-align: center;
+  height: 50%;
+  padding: 50px 0;
+}
+.signinHeader img {
+  width: 250px;
+}
+.signinsection-2 {
+  height: 100%;
+}
+.signinMainImage {
+  text-align: center;
+  height: 50%;
+  width: 100%;
+  padding: 50px 0;
+}
+.signinMainImage img {
+  width: 600px;
+  height: 100%;
+}
+.formHeader {
+  text-align: center;
+  height: 30%;
+  padding: 20px 0;
+}
+.formHeader img {
+  width: 150px;
+  height: 150px;
+}
+.signin-text {
+  height: 5%;
+}
+.signin-text p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #6e99b7;
+}
+.signinForm {
+  text-align: center;
+  height: 60%;
+  width: 100%;
+}
+.main-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.formInput {
+  width: 100%;
+  border-radius: 12px !important;
+}
+.textField {
+  width: 90%;
+}
+.formInput:focus-visible {
+  border: none !important;
+}
+.checkField {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signin-button {
+  width: 350px !important;
+  height: 60px !important;
+  background: linear-gradient(180deg, #3b6d8f 0%, #6e99b7 100%) !important;
+  border-radius: 12px !important;
+  font-size: 20px !important;
+  line-height: 12px !important;
+  text-decoration: none !important;
+}
+.linkItem {
+  text-decoration: none !important;
+}
+.signup-account {
+  text-align: center;
+  height: 5%;
+}
+.signup-account p {
+  color: black;
+  font-weight: 600;
+}
+Link {
+  color: #3c6e91 !important;
+}
+.forgot {
+  font-weight: 600;
+}
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+  color: #3c6e91 !important;
+}
+/* Sigin page end */
+/* Sign Up page start */
+.signUp-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.signin-account {
+  text-align: center;
+  height: 10%;
+}
+.signin-account p {
+  color: black;
+  font-weight: 600;
+}
+.text {
+  width: 90%;
+}
+/* Sign Up page End */
+
+/* Add new address page start */
+.homeLogo {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+.appBar {
+  background-color: #ffffff !important;
+  color: black !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #a9a9a9;
+}
+.main-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.profile-section {
+  display: flex !important;
+  align-items: center !important;
+}
+.pofileImage img {
+  border-radius: 50% !important;
+  height: 50px !important;
+  width: 50px !important;
+}
+.mate-icon {
+  font-size: 30px !important;
+}
+.headerTitle {
+  color: #004574 !important;
+  font-weight: 600 !important;
+}
+.main-content {
+  margin-top: 75px !important;
+  height: calc(100vh - 70px) !important;
+  z-index: 10 !important;
+}
+.clinic-name {
+  padding: 40px 0 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bolder !important;
+  font-size: 35px;
+  line-height: 18px;
+  color: #004574;
+  text-align: center;
+}
+.address-form {
+  text-align: center !important;
+}
+.cName {
+  /* background: #ffffff !important; */
+  /* border: 1.01111px solid #3c6e91 !important; */
+  /* box-shadow: 0px 4.55px 12.1333px rgba(102, 146, 177, 0.35) !important; */
+  border-radius: 12px !important;
+  width: 50%;
+}
+.subBtn Button {
+  margin: 10px !important;
+  text-transform: capitalize !important;
+}
+.save-address {
+  background: linear-gradient(180deg, #3b6d8f 0%, #6e99b7 100%);
+  border-radius: 12px !important;
+  text-transform: uppercase;
+  padding: 10px 50px !important;
+}
+.cancel {
+  background: #dff2ff !important;
+  border-radius: 12px !important;
+  color: #000000 !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover {
+  border: none !important;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: #3c6e91 !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 12px !important;
+}
+/* Add new address page end */
+
+/* Welcome page start */
+.myAccount {
+  padding: 40px 0 !important;
+  font-weight: bolder !important;
+  font-size: 35px !important;
+  line-height: 18px !important;
+  color: #004574 !important;
+  text-align: center !important;
+}
+.welcome-menu {
+  text-align: center !important;
+}
+.myaccount {
+  width: 100%;
+  height: auto;
+}
+.poly1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.poly2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.ac-p {
+  position: absolute;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #004574;
+}
+/* Welcome page End */
+
+/* Sidebar Start */
+.mainSidebar {
+  z-index: 100 !important;
+}
+.activelink {
+  background-color: white !important;
+  text-decoration: none;
+  color: rgba(0, 69, 116, 1);
+}
+.menulink {
+  text-decoration: none;
+  color: white;
+}
+.activelink .icons {
+  background-color: rgba(0, 69, 116, 1);
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.activelink .icons svg path {
+  color: white;
+}
+.menulink .icons svg path {
+  color: rgba(0, 69, 116, 1);
+}
+.menulink .icons {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.activelink .buttons {
+  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 8% 73%, 8% 28%);
+  background-color: white;
+}
+.activelink .buttons:hover {
+  background-color: white !important;
+}
+.menulink .buttons:hover {
+  background-color: rgba(0, 69, 116, 1) !important;
+}
+.drawer {
+  height: 100vh !important;
+}
+.sideMenu {
+  position: fixed !important;
+  top: 0 !important;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper,
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+  background-color: #004574 !important;
+}
+/* Sidebar End */
+/* Inbox Start */
+.css-jzppkm-MuiPaper-root-MuiAppBar-root {
+  z-index: 50 !important;
+}
+.head {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+/* Inbox End */
+
+
+/* Cart */
+.cart-header{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 1000px) {
+  .poly-img {
+    width: 40%;
+  }
+
+  .poly-img1 {
+    width: 100%;
+  }
+
+  .icon-img {
+    width: 60%;
+  }
+
+  .ac-p {
+    font-size: 18px;
+    width: min-content;
+    line-height: 20px;
+  }
+  .order,
+  .shop,
+  .inbox,
+  .patient,
+  .support,
+  .details {
+    left: 42%;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .order,
+  .patient {
+    left: 16.5%;
+  }
+  .shop,
+  .support {
+    left: 46.5%;
+  }
+  .inbox {
+    left: 76.5%;
+  }
+  .details {
+    left: 77%;
+  }
+}
+
+/* Media Query start */
+@media only screen and (max-width: 600px) {
+  .homeLogo {
+    left: 24px;
+    /* left: 64px; */
+  }
+}
+@media (max-width: 768px) {
+  .appBar {
+    border-bottom: none !important;
+  }
+}
+@media (max-width: 320px) {
+  .StyledStepperContainer {
+    padding-top: 50px !important;
+  }
+  .main-content {
+    padding-top: 60px !important;
+  }
+  .appBar {
+    border-bottom: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .css-jzppkm-MuiPaper-root-MuiAppBar-root {
+    margin-left: 0 !important;
+    width: calc(100% - 5%) !important;
+    /* width: 100% !important; */
+  }
+}
+@media (max-width: 425px) {
+  .css-jzppkm-MuiPaper-root-MuiAppBar-root {
+    margin-left: 0 !important;
+    width: calc(100% - 10%) !important;
+  }
+}
+/* Media Query end */

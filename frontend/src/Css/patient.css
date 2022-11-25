@@ -1,0 +1,160 @@
+.patient-section {
+  padding: 20px !important;
+}
+.step-name {
+  font-weight: bolder !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+  color: #004574 !important;
+}
+.patientDetails {
+  text-align: center !important;
+}
+.patientDetails p {
+  font-weight: bolder !important;
+  font-size: 24px !important;
+  line-height: 29px !important;
+  color: #004574 !important;
+  padding: 25px 0 !important;
+}
+.nextStep {
+  background: linear-gradient(180deg, #3b6d8f 0%, #6e99b7 100%) !important;
+  border-radius: 12px !important;
+  font-size: 20px !important;
+  line-height: 12px !important;
+  width: 200px !important;
+  height: 50px !important;
+  text-transform: capitalize !important;
+  color: #ffffff !important;
+}
+.cancel {
+  width: 200px !important;
+  height: 50px !important;
+}
+.continueBtn {
+  padding: 20px 0;
+}
+.continueBtn > Button {
+  margin: 10px !important;
+}
+.uploadImage {
+  /* width: 213px; */
+  height: 188.89px;
+  text-align: center !important;
+  padding: 10px;
+  background: #ffffff !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px 0px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+.uploadImage > p {
+  font-weight: bolder !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  color: #000000 !important;
+  padding: 8px 0 !important;
+}
+button#file-upload-button {
+  background: #dff2ff !important;
+  border-radius: 5px !important;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  background: #dff2ff;
+  border-radius: 5px;
+  display: inline-block;
+  color: #009aff !important;
+  cursor: pointer;
+  padding: 8px !important;
+  font-weight: bolder !important;
+}
+.patientList {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+.patientList p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: left;
+  color: #004574;
+}
+.newPatientBtn {
+  background: linear-gradient(180deg, #3b6d8f 0%, #6e99b7 100%) !important;
+  border-radius: 12px !important;
+  font-size: 18px !important;
+  line-height: 12px !important;
+  text-transform: capitalize !important;
+  padding: 10px !important;
+  color: #ffffff !important;
+}
+.css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  line-height: 29px !important;
+  color: #004574 !important;
+}
+.css-r11z79-MuiDataGrid-root .MuiDataGrid-cellContent {
+  font-weight: bolder !important;
+  color: black !important;
+}
+
+.patientTable {
+  padding-top: 30px !important;
+}
+.patientTable > div {
+  border: none !important;
+}
+.MuiDataGrid-columnHeaders.css-f3jnds-MuiDataGrid-columnHeaders {
+  border: 1px solid rgba(0, 159, 255, 0.49) !important;
+  border-radius: 10px !important;
+  background-color: #f3fbff !important;
+}
+.css-17jjc08-MuiDataGrid-footerContainer {
+  border: none !important;
+}
+.css-r11z79-MuiDataGrid-root .MuiDataGrid-cell {
+  border-bottom: 1.0743px solid rgba(0, 158, 255, 0.65) !important;
+}
+.activeBtn {
+  background: #d0e9ca !important;
+  border-radius: 10px !important;
+  color: #24b900 !important;
+}
+.deactiveBtn {
+  background: #ea7e7e !important;
+  border-radius: 10px !important;
+  color: #d03d24 !important;
+}
+.modalTextField {
+  margin: 10px;
+}
+.submitButton {
+  margin: 10px !important;
+  background: linear-gradient(180deg, #3b6d8f 0%, #6e99b7 100%) !important;
+  border-radius: 12px !important;
+  font-size: 20px !important;
+  line-height: 12px !important;
+  padding: 15px !important;
+}
+.StyledStepperContainer {
+  display: flex !important;
+  flex-direction: column !important;
+}
+.StyledStepperBody {
+  padding: 50px 16px !important;
+}
+@media (max-width: 768px) {
+  .lineImage {
+    display: none !important;
+  }
+  .step-name {
+    font-weight: bolder !important;
+    font-size: 16px !important;
+    line-height: 29px !important;
+    color: #004574 !important;
+  }
+}

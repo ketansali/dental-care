@@ -1,0 +1,43 @@
+.teeth-section {
+  padding: 20px !important;
+}
+.teeth-type {
+  text-align: center !important;
+  background: #ffffff !important;
+  box-shadow: inset 0px 0px 7.07174px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 12px !important;
+  width: 100% !important;
+}
+.teeth-name {
+  font-weight: bolder !important;
+  font-size: 20px !important;
+  line-height: 15px !important;
+  text-align: center !important;
+  color: #004574 !important;
+  padding: 10px 0 !important;
+}
+.teeth-text {
+  padding: 25px !important;
+}
+.teeth-text p {
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  color: #70c6ff;
+}
+.orderBtn {
+  font-weight: bolder !important;
+  line-height: 12px !important;
+  text-align: center !important;
+  color: #004574 !important;
+}
+.teeth-images {
+  width: 100% !important;
+}
+.teeth-images img {
+  width: 100%;
+  margin-top: -30px;
+}
+.oBtn {
+  padding: 10px 0 !important;
+}
